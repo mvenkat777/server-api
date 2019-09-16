@@ -1,0 +1,58 @@
+[
+ {
+  "KEY":["*",""],
+  "QC":["*",""],
+  "POM_CODE":["AB600",""],
+  "POM_DESCRIPTION":["Blanket Width",""],
+  "TOL":["1/2",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["*",""],
+  "QC":["*",""],
+  "POM_CODE":["AB601",""],
+  "POM_DESCRIPTION":["Blanket Length",""],
+  "TOL":["1/2",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AB602",""],
+  "POM_DESCRIPTION":["Hem/trim Height",""],
+  "TOL":["0",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AB603",""],
+  "POM_DESCRIPTION":["Graphic Height",""],
+  "TOL":["0",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AB604",""],
+  "POM_DESCRIPTION":["Graphic Width",""],
+  "TOL":["0",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AB605",""],
+  "POM_DESCRIPTION":["Graphic Placement Horizontal From ____",""],
+  "TOL":["1/8",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AB606",""],
+  "POM_DESCRIPTION":["Graphic Placement Vertical From ____",""],
+  "TOL":["1/8",""],
+  "ONE_SIZE":[""
+ ,""]}
+]

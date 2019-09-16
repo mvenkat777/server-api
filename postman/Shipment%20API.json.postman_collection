@@ -1,0 +1,246 @@
+{
+	"id": "121e3fd3-23a6-c6e3-9158-ba8737feb675",
+	"name": "Shipment API",
+	"description": "",
+	"order": [
+		"8cd8a5c2-6c1b-0334-b616-4255f09eaa23",
+		"aba512f2-7f35-2bfc-f147-229b82fbf35f",
+		"a7ad8627-7ce3-e072-bf57-3f215ad2839a",
+		"a5e8e1a0-e064-010a-6c08-9bb99d367c0b",
+		"82c10aab-7b73-8059-9e34-55a7a348f080"
+	],
+	"folders": [],
+	"timestamp": 1443618032888,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "82c10aab-7b73-8059-9e34-55a7a348f080",
+			"headers": "Content-Type: application/json\naccess-token: $2y$10$iq9H9uQ2u0QGN7n/rn6wXO/C8msQp407s.eR12hBjnBZiPpZGns9C\n",
+<<<<<<< HEAD
+			"url": "api.dev/shipments/14eeebdd-489a-4434-9249-7188b28d3889",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "DELETE",
+=======
+			"url": "api.dev/shipment/14eeebdd-489a-4434-9249-7188b28d3889",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "DELETE",
+			"collectionId": "121e3fd3-23a6-c6e3-9158-ba8737feb675",
+>>>>>>> origin/feature/administration
+			"data": [
+				{
+					"key": "email",
+					"value": "kishan@sourceeasy.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+<<<<<<< HEAD
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1444302628788,
+			"name": " Delete shipment",
+			"description": "",
+			"collectionId": "121e3fd3-23a6-c6e3-9158-ba8737feb675",
+			"responses": []
+		},
+		{
+			"id": "8cd8a5c2-6c1b-0334-b616-4255f09eaa23",
+			"headers": "Content-Type: application/json\naccess-token: $2y$10$01nxHp0UawU2DluAJ3hcwOhvlO8.pDS.CjwCqZbs6.8nOON6ThKum\n",
+			"url": "api.dev/shipments",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1444302614842,
+			"name": "create shipment",
+			"description": "",
+			"collectionId": "121e3fd3-23a6-c6e3-9158-ba8737feb675",
+			"responses": [],
+			"rawModeData": "{\n    \"shipmentType\":\"se\",\n    \"shippedDate\":\"12-10-2015\",\n    \"shippedFrom\":\"hydrerabad\",\n    \"shippedDestination\":\"china\",\n    \"itemDetails\":{\"efsdfsd\":\"ferferf\",\"sddsdfs\":\"sfssdsdfsd\",\"fsdf\":\"sdfdfds\"},\n    \"trackingId\":\"sfewfefe\",\n    \"trackingProvide\":\"esfwfesf\",\n    \"techpackID\":\"\",\n    \"productId\":\"\"\n}"
+=======
+			"name": " Delete shipment",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1443619153496,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "8cd8a5c2-6c1b-0334-b616-4255f09eaa23",
+			"headers": "Content-Type: application/json\naccess-token: $2y$10$iq9H9uQ2u0QGN7n/rn6wXO/C8msQp407s.eR12hBjnBZiPpZGns9C\n",
+			"url": "api.dev/shipment",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"collectionId": "121e3fd3-23a6-c6e3-9158-ba8737feb675",
+			"data": [],
+			"dataMode": "raw",
+			"name": "create shipment",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1443618058494,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"shipmentType\":\"se\",\n    \"shippedDate\":\"12-10-2015\",\n    \"shippedFrom\":\"hydrerabad\",\n    \"shippedDestination\":\"china\",\n    \"itemDetails\":\"efsdfsd\",\n    \"trackingId\":\"sfewfefe\",\n    \"trackingProvide\":\"esfwfesf\",\n    \"techpackID\":\"\",\n    \"productId\":\"\"\n}"
+>>>>>>> origin/feature/administration
+		},
+		{
+			"id": "a5e8e1a0-e064-010a-6c08-9bb99d367c0b",
+			"headers": "Content-Type: application/json\naccess-token: $2y$10$iq9H9uQ2u0QGN7n/rn6wXO/C8msQp407s.eR12hBjnBZiPpZGns9C\n",
+<<<<<<< HEAD
+			"url": "api.dev/shipments/14eeebdd-489a-4434-9249-7188b28d3889",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+=======
+			"url": "api.dev/shipment/14eeebdd-489a-4434-9249-7188b28d3889",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "121e3fd3-23a6-c6e3-9158-ba8737feb675",
+>>>>>>> origin/feature/administration
+			"data": [
+				{
+					"key": "email",
+					"value": "kishan@sourceeasy.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+<<<<<<< HEAD
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1444302624465,
+			"name": " shipment by Id",
+			"description": "",
+			"collectionId": "121e3fd3-23a6-c6e3-9158-ba8737feb675",
+			"responses": []
+		},
+		{
+			"id": "a7ad8627-7ce3-e072-bf57-3f215ad2839a",
+			"headers": "Content-Type: application/json\naccess-token: $2y$10$01nxHp0UawU2DluAJ3hcwOhvlO8.pDS.CjwCqZbs6.8nOON6ThKum\n",
+			"url": "api.dev/shipments",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+=======
+			"name": " shipment by Id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1443618861281,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a7ad8627-7ce3-e072-bf57-3f215ad2839a",
+			"headers": "Content-Type: application/json\naccess-token: $2y$10$iq9H9uQ2u0QGN7n/rn6wXO/C8msQp407s.eR12hBjnBZiPpZGns9C\n",
+			"url": "api.dev/shipment",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "121e3fd3-23a6-c6e3-9158-ba8737feb675",
+>>>>>>> origin/feature/administration
+			"data": [
+				{
+					"key": "email",
+					"value": "kishan@sourceeasy.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+<<<<<<< HEAD
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1444302619044,
+			"name": "All shipments",
+			"description": "",
+			"collectionId": "121e3fd3-23a6-c6e3-9158-ba8737feb675",
+			"responses": []
+		},
+		{
+			"id": "aba512f2-7f35-2bfc-f147-229b82fbf35f",
+			"headers": "Content-Type: application/json\naccess-token: $2y$10$01nxHp0UawU2DluAJ3hcwOhvlO8.pDS.CjwCqZbs6.8nOON6ThKum\n",
+			"url": "api.dev/shipments/54fc2bea-f984-433b-9aea-dadb425a8e36",
+=======
+			"name": "All shipments",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1443618704411,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "aba512f2-7f35-2bfc-f147-229b82fbf35f",
+			"headers": "Content-Type: application/json\naccess-token: $2y$10$iq9H9uQ2u0QGN7n/rn6wXO/C8msQp407s.eR12hBjnBZiPpZGns9C\n",
+			"url": "api.dev/shipment/14eeebdd-489a-4434-9249-7188b28d3889",
+>>>>>>> origin/feature/administration
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+<<<<<<< HEAD
+			"time": 1444302617002,
+=======
+			"time": 1443618401999,
+>>>>>>> origin/feature/administration
+			"name": "update shipment trackingStatus",
+			"description": "",
+			"collectionId": "121e3fd3-23a6-c6e3-9158-ba8737feb675",
+			"responses": [],
+			"rawModeData": "{\n    \"trackingStatus\":\"delivered\"\n}"
+		}
+	]
+}

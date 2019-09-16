@@ -1,0 +1,71 @@
+{
+	"owner": "161830",
+	"lastUpdatedBy": "161830",
+	"lastRevision": 70878293,
+	"team": null,
+	"id": "131cf238-6951-a971-d187-209fb7f79f1b",
+	"name": "Universal Upload API",
+	"description": "",
+	"remoteLink": "https://www.getpostman.com/collections/6aceb4e2cb8bc049484b",
+	"order": [
+		"a82af8fc-128b-3e3a-9e06-9bb2bdf5c81b",
+		"941c79e2-53db-0ba2-62ae-fdf7c5477460"
+	],
+	"requests": [
+		{
+			"id": "941c79e2-53db-0ba2-62ae-fdf7c5477460",
+			"headers": "access-token: $2y$10$HNy/dt/Nr64jJwjBzOdI8.a.N8tmFHxrFWTmYUCnqEy4298Xr.Amu\n",
+			"url": "api3.dev/uploads",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1446183917625,
+			"name": "Get All",
+			"description": "",
+			"collectionId": "131cf238-6951-a971-d187-209fb7f79f1b"
+		},
+		{
+			"id": "a82af8fc-128b-3e3a-9e06-9bb2bdf5c81b",
+			"headers": "access-token: $2y$10$HNy/dt/Nr64jJwjBzOdI8.a.N8tmFHxrFWTmYUCnqEy4298Xr.Amu\n",
+			"url": "api3.dev/uploads",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "files[]",
+					"value": "6798419-high-tech-wallpapers.jpg",
+					"type": "file",
+					"enabled": true
+				},
+				{
+					"key": "bucket",
+					"value": "lsdjfl",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "folder",
+					"value": "ldknflsdk",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1446183982630,
+			"name": "Store File",
+			"description": "",
+			"collectionId": "131cf238-6951-a971-d187-209fb7f79f1b"
+		}
+	]
+}

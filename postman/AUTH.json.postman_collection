@@ -1,0 +1,213 @@
+{
+	"owner": "161830",
+	"lastUpdatedBy": "161830",
+	"lastRevision": 60281136,
+	"team": null,
+	"id": "b7db0aaa-43a1-181d-5d11-a9f0bebafeac",
+	"name": "API.DEV",
+	"description": "",
+	"remoteLink": "https://www.getpostman.com/collections/594033801616938be586",
+	"order": [
+		"5432f560-c669-3a9f-e0e8-23d08140135a",
+		"ccea11a5-eb46-40ee-3afe-df0128a8a58a",
+		"dde675e6-c9e0-1eaf-40bc-4139ae4d0507",
+		"2ec537e0-4f1e-4243-e08e-633ed66b7f47",
+		"f822fcc9-d8a1-60b9-6117-1c7eccdaa982",
+		"562d902a-85c1-6697-83ae-44fdf6f0ce1a",
+		"49152a12-13d7-5bf5-86bb-1fa622656e1b",
+		"fb94bffe-385a-077e-bba5-c0f51ae5617c"
+	],
+	"requests": [
+		{
+			"id": "2ec537e0-4f1e-4243-e08e-633ed66b7f47",
+			"headers": "",
+			"url": "http://api3.sourceeasy.com/auth/facebook/CAAXZADABaU8ABADIInJy7F0tzOnrbijezECfcyTcl7pKHRXtAYZChH7JgKUSQY7bJlY069BzaIDAbfuBrjyTlZA2nEksZC2pVZCZCEQZCe0CjCCqcr8EgtBzjf13nuCbA00VGQ7WKuPQGdGcHljCV4zaFMQn2XQ8p6tafDkcJIY0ZBekIpmeLE03zggIpHV9hQOCvZBYZBQ0GlvSFZBS2T2ZCuQM",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1443418851929,
+			"name": "Facebook Login",
+			"description": "",
+			"collectionId": "b7db0aaa-43a1-181d-5d11-a9f0bebafeac"
+		},
+		{
+			"id": "49152a12-13d7-5bf5-86bb-1fa622656e1b",
+			"headers": "",
+			"url": "api3.sourceeasy.com/auth/resetPassword",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "kishan@sourceeasy.com",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1443418896347,
+			"name": "Send Reset Password Link",
+			"description": "",
+			"collectionId": "b7db0aaa-43a1-181d-5d11-a9f0bebafeac"
+		},
+		{
+			"id": "5432f560-c669-3a9f-e0e8-23d08140135a",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://api3.sourceeasy.com/users",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1443418822263,
+			"name": "Sign up Legacy",
+			"description": "",
+			"collectionId": "b7db0aaa-43a1-181d-5d11-a9f0bebafeac",
+			"rawModeData": "{\n    \"displayName\": \"Kishan\",\n    \"email\": \"kishan@sourceesasy.com\",\n    \"password\": \"kishan123\"\n}"
+		},
+		{
+			"id": "562d902a-85c1-6697-83ae-44fdf6f0ce1a",
+			"headers": "access-token: $2y$10$imafAy5k.w0iIV5TAoMEGe5XoO0KxQhlzGnLGuOm4IVVtBRt7QiT6\n",
+			"url": "api3.sourceeasy.com/auth/changePassword",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "kishanpradhan100@gmail.com",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "currentPassword",
+					"value": "kishan123",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "newPassword",
+					"value": "kishan321",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1443418883696,
+			"name": "ChangePassword",
+			"description": "",
+			"collectionId": "b7db0aaa-43a1-181d-5d11-a9f0bebafeac"
+		},
+		{
+			"id": "ccea11a5-eb46-40ee-3afe-df0128a8a58a",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://api3.sourceeasy.com/auth",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1443418829952,
+			"name": "Login Legacy",
+			"description": "",
+			"collectionId": "b7db0aaa-43a1-181d-5d11-a9f0bebafeac",
+			"rawModeData": "{\n    \"email\": \"kishan@sourceeasy.com\",\n    \"password\": \"kishan123\"\n}"
+		},
+		{
+			"id": "dde675e6-c9e0-1eaf-40bc-4139ae4d0507",
+			"headers": "",
+			"url": "http://api3.sourceeasy.com/auth/google/ya29.9QF2yjBr5G8WLTr33hFSi8ZLHZn5G_GC8q9OSeVFW9cvU0v1IAt2Gn3mZlsGInXiK59nzA",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1443418858726,
+			"name": "Google Login",
+			"description": "",
+			"collectionId": "b7db0aaa-43a1-181d-5d11-a9f0bebafeac"
+		},
+		{
+			"id": "f822fcc9-d8a1-60b9-6117-1c7eccdaa982",
+			"headers": "access-token: $2y$10$8aqasw.WyAngjC7ysf6k6O5daHevw.rHr2FOzhBn.c6yEdA4bk5tK\n",
+			"url": "api3.sourceeasy.com/auth/logout",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1443418872128,
+			"name": "Logout",
+			"description": "",
+			"collectionId": "b7db0aaa-43a1-181d-5d11-a9f0bebafeac"
+		},
+		{
+			"id": "fb94bffe-385a-077e-bba5-c0f51ae5617c",
+			"headers": "",
+			"url": "api3.sourceeasy.com/auth/resetPassword",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "kishan@sourceeasy.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "49a35db8-7d9d-4915-84ce-a40fe5303fbc",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "kishan123",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1443418903300,
+			"name": "Reset Password",
+			"description": "",
+			"collectionId": "b7db0aaa-43a1-181d-5d11-a9f0bebafeac"
+		}
+	]
+}

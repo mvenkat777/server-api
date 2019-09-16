@@ -1,0 +1,322 @@
+[
+ {
+  "KEY":["*",""],
+  "QC":["*",""],
+  "POM_CODE":["AH500",""],
+  "POM_DESCRIPTION":["Circumference- Opening",""],
+  "TOL":["3/8",""],
+  "S/M":["-1",""],
+  "M/L":["",""],
+  "L/XL":["1"
+ ,""]},
+ {
+  "KEY":["*",""],
+  "QC":["*",""],
+  "POM_CODE":["AH501",""],
+  "POM_DESCRIPTION":["Circumference - Brim Outer Edge",""],
+  "TOL":["3/8",""],
+  "S/M":["-1 1/4",""],
+  "M/L":["",""],
+  "L/XL":["1 1/4"
+ ,""]},
+ {
+  "KEY":["*",""],
+  "QC":["*",""],
+  "POM_CODE":["AH502",""],
+  "POM_DESCRIPTION":["Brim Width",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["*",""],
+  "QC":["*",""],
+  "POM_CODE":["AH503",""],
+  "POM_DESCRIPTION":["Crown Height At Center Front",""],
+  "TOL":["1/8",""],
+  "S/M":["-1/4",""],
+  "M/L":["",""],
+  "L/XL":["1/4"
+ ,""]},
+ {
+  "KEY":["*",""],
+  "QC":["*",""],
+  "POM_CODE":["AH504",""],
+  "POM_DESCRIPTION":["Crown Height At Center Back",""],
+  "TOL":["1/8",""],
+  "S/M":["-1/4",""],
+  "M/L":["",""],
+  "L/XL":["1/4"
+ ,""]},
+ {
+  "KEY":["*",""],
+  "QC":["",""],
+  "POM_CODE":["AH505",""],
+  "POM_DESCRIPTION":["Flat Top Length At Center",""],
+  "TOL":["1/8",""],
+  "S/M":["-1/4",""],
+  "M/L":["",""],
+  "L/XL":["1/4"
+ ,""]},
+ {
+  "KEY":["*",""],
+  "QC":["",""],
+  "POM_CODE":["AH506",""],
+  "POM_DESCRIPTION":["Flat Top Width At Center",""],
+  "TOL":["1/8",""],
+  "S/M":["-1/4",""],
+  "M/L":["",""],
+  "L/XL":["1/4"
+ ,""]},
+ {
+  "KEY":["*",""],
+  "QC":["",""],
+  "POM_CODE":["AH507",""],
+  "POM_DESCRIPTION":["Band Height",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["*",""],
+  "QC":["",""],
+  "POM_CODE":["AH508",""],
+  "POM_DESCRIPTION":["Hem/trim Height",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["*",""],
+  "QC":["*",""],
+  "POM_CODE":["AH509",""],
+  "POM_DESCRIPTION":["Center Front To Center Back Length",""],
+  "TOL":["1/8",""],
+  "S/M":["-1/2",""],
+  "M/L":["",""],
+  "L/XL":["1/2"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["*",""],
+  "POM_CODE":["AH510",""],
+  "POM_DESCRIPTION":["Hat Height",""],
+  "TOL":["1/8",""],
+  "S/M":["-1/4",""],
+  "M/L":["",""],
+  "L/XL":["1/4"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["*",""],
+  "POM_CODE":["AH511",""],
+  "POM_DESCRIPTION":["Hat Width",""],
+  "TOL":["1/8",""],
+  "S/M":["-1/2",""],
+  "M/L":["",""],
+  "L/XL":["1/2"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["*",""],
+  "POM_CODE":["AH512",""],
+  "POM_DESCRIPTION":["Panel Height",""],
+  "TOL":["1/8",""],
+  "S/M":["-1/4",""],
+  "M/L":["",""],
+  "L/XL":["1/4"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["*",""],
+  "POM_CODE":["AH513",""],
+  "POM_DESCRIPTION":["Panel Width",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["*",""],
+  "POM_CODE":["AH514",""],
+  "POM_DESCRIPTION":["Number Of Panels",""],
+  "TOL":["0",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH515",""],
+  "POM_DESCRIPTION":["Visor Width",""],
+  "TOL":["1/8",""],
+  "S/M":["-1/4",""],
+  "M/L":["",""],
+  "L/XL":["1/4"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH516",""],
+  "POM_DESCRIPTION":["Visor Length",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH517",""],
+  "POM_DESCRIPTION":["Visor Depth",""],
+  "TOL":["1/8",""],
+  "S/M":["-1/8",""],
+  "M/L":["",""],
+  "L/XL":["1/8"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH518",""],
+  "POM_DESCRIPTION":["Visor Height",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH520",""],
+  "POM_DESCRIPTION":["Earflap Height At Center",""],
+  "TOL":["1/8",""],
+  "S/M":["-1/4",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH521",""],
+  "POM_DESCRIPTION":["Earflap Width At Top",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH525",""],
+  "POM_DESCRIPTION":["Dart Depth",""],
+  "TOL":["0",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH526",""],
+  "POM_DESCRIPTION":["Dart Length",""],
+  "TOL":["0",""],
+  "S/M":["-1/8",""],
+  "M/L":["",""],
+  "L/XL":["1/8"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["*",""],
+  "POM_CODE":["AH527",""],
+  "POM_DESCRIPTION":["Number Of Darts",""],
+  "TOL":["0",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH530",""],
+  "POM_DESCRIPTION":["Strap Width",""],
+  "TOL":["0",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH531",""],
+  "POM_DESCRIPTION":["Strap Length",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH535",""],
+  "POM_DESCRIPTION":["Keyhole Height",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH536",""],
+  "POM_DESCRIPTION":["Keyhole Opening Width",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH540",""],
+  "POM_DESCRIPTION":["Graphic Height",""],
+  "TOL":["0",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH541",""],
+  "POM_DESCRIPTION":["Graphic Width",""],
+  "TOL":["0",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH542",""],
+  "POM_DESCRIPTION":["Graphic Placement Horizontal From ____",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AH543",""],
+  "POM_DESCRIPTION":["Graphic Placement Vertical From ____",""],
+  "TOL":["1/8",""],
+  "S/M":["0",""],
+  "M/L":["",""],
+  "L/XL":["0"
+ ,""]}
+]

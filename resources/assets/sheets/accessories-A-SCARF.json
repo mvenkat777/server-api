@@ -1,0 +1,58 @@
+[
+ {
+  "KEY":["*",""],
+  "QC":["*",""],
+  "POM_CODE":["AS600",""],
+  "POM_DESCRIPTION":["Scarf Width",""],
+  "TOL":["1/4",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["*",""],
+  "QC":["*",""],
+  "POM_CODE":["AS601",""],
+  "POM_DESCRIPTION":["Scarf Length",""],
+  "TOL":["1/2",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AS602",""],
+  "POM_DESCRIPTION":["Hem/trim Height",""],
+  "TOL":["0",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AS603",""],
+  "POM_DESCRIPTION":["Graphic Height",""],
+  "TOL":["0",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AS604",""],
+  "POM_DESCRIPTION":["Graphic Width",""],
+  "TOL":["0",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AS605",""],
+  "POM_DESCRIPTION":["Graphic Placement Horizontal From ____",""],
+  "TOL":["1/8",""],
+  "ONE_SIZE":[""
+ ,""]},
+ {
+  "KEY":["",""],
+  "QC":["",""],
+  "POM_CODE":["AS606",""],
+  "POM_DESCRIPTION":["Graphic Placement Vertical From ____",""],
+  "TOL":["1/8",""],
+  "ONE_SIZE":[""
+ ,""]}
+]

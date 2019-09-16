@@ -1,0 +1,6 @@
+formatter.name: pretty
+suites:
+    picks:
+        namespace: Platform\Picks
+        psr4_prefix: Platform
+        src_path: se

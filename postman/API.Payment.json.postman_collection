@@ -1,0 +1,183 @@
+{
+	"id": "a2f384d2-ab10-056a-7e9c-108599fbd065",
+	"name": "API.Payment",
+	"description": "",
+	"order": [
+		"53c242b1-2519-d917-9c16-512d5a474ad7",
+		"46362f27-0013-4723-230f-3e04c75d2905",
+		"849f76aa-9d88-0115-605d-d64236de8256",
+		"5de25a9a-2400-90ed-1dbd-9d1545341f8f",
+		"c26c4e5b-c297-fc70-4da8-93a3176760e0"
+	],
+	"folders": [],
+	"timestamp": 1443550127265,
+	"owner": "60752",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "46362f27-0013-4723-230f-3e04c75d2905",
+			"headers": "Content-Type: application/json\n",
+<<<<<<< HEAD
+			"url": "http://server.dev/payments/19468837-47fd-4156-a8e7-4d3a2f2e0b1c",
+=======
+			"url": "http://server.dev/sourceeasy?payment=252eebce-70f6-42f2-a963-00e085916663",
+>>>>>>> origin/feature/administration
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+<<<<<<< HEAD
+			"time": 1444717651697,
+=======
+			"time": 1443552690500,
+>>>>>>> origin/feature/administration
+			"name": "checkLink",
+			"description": "",
+			"collectionId": "a2f384d2-ab10-056a-7e9c-108599fbd065",
+			"responses": []
+		},
+		{
+			"id": "53c242b1-2519-d917-9c16-512d5a474ad7",
+			"headers": "Content-Type: application/json\n",
+<<<<<<< HEAD
+			"url": "server.dev/payments",
+=======
+			"url": "server.dev/new",
+>>>>>>> origin/feature/administration
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+<<<<<<< HEAD
+			"time": 1444716861540,
+=======
+			"time": 1443550464747,
+>>>>>>> origin/feature/administration
+			"name": "addNew",
+			"description": "",
+			"collectionId": "a2f384d2-ab10-056a-7e9c-108599fbd065",
+			"responses": [],
+<<<<<<< HEAD
+			"rawModeData": "{\n    \"email\": \"ankur@sourceeasy.com\",\n    \"name\":\"Ankur Mishra\",\n    \"productName\": \"T-Shirts\",\n    \"description\":\"White T-Shirts with logo\",\n    \"amount\":\"100\",\n    \"uploadLink\":\"facebook.com\"\n    \n}"
+=======
+			"rawModeData": "{\n    \"email\":\"ankur@sourceeasy.com\",\n    \"name\":\"Ankur Mishra\",\n    \"productName\":\"T-Shirts\",\n    \"description\":\"20 Black T-Shirts with one Logo\",\n    \"amount\":\"10000\"\n}"
+>>>>>>> origin/feature/administration
+		},
+		{
+			"id": "5de25a9a-2400-90ed-1dbd-9d1545341f8f",
+			"headers": "Content-Type: application/json\n",
+<<<<<<< HEAD
+			"url": "server.dev/payments/5814089a-273c-44a3-916d-08bf18772bef/cancel/",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1444656517419,
+			"name": "cancelOrder",
+			"description": "",
+			"collectionId": "a2f384d2-ab10-056a-7e9c-108599fbd065",
+			"responses": []
+=======
+			"url": "server.dev/cancel/11c3d49c-8cc5-4c6e-820d-d4248d9b3161",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "a2f384d2-ab10-056a-7e9c-108599fbd065",
+			"data": [],
+			"dataMode": "params",
+			"name": "cancelOrder",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1443557617472,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+>>>>>>> origin/feature/administration
+		},
+		{
+			"id": "849f76aa-9d88-0115-605d-d64236de8256",
+			"headers": "Content-Type: application/json\n",
+<<<<<<< HEAD
+			"url": "server.dev/payments/a9c3a442-7596-4074-823a-ed7afb7cbb95/payment",
+=======
+			"url": "server.dev/payment/4435b7d2-c115-4e6f-a8fd-2b39eeab73dd",
+>>>>>>> origin/feature/administration
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+<<<<<<< HEAD
+			"time": 1444717646555,
+=======
+			"time": 1443558931762,
+>>>>>>> origin/feature/administration
+			"name": "paymentStatus",
+			"description": "",
+			"collectionId": "a2f384d2-ab10-056a-7e9c-108599fbd065",
+			"responses": [],
+<<<<<<< HEAD
+			"rawModeData": "{\n    \"status\":\"failed\"\n}"
+=======
+			"rawModeData": "{\n    \"status\":\"success\"\n}"
+>>>>>>> origin/feature/administration
+		},
+		{
+			"id": "c26c4e5b-c297-fc70-4da8-93a3176760e0",
+			"headers": "Content-Type: application/json\n",
+<<<<<<< HEAD
+			"url": "server.dev/payments",
+=======
+			"url": "server.dev/paymentList",
+>>>>>>> origin/feature/administration
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+<<<<<<< HEAD
+			"helperAttributes": "{}",
+			"time": 1443678266462,
+			"name": "PaymentList",
+			"description": "",
+			"collectionId": "a2f384d2-ab10-056a-7e9c-108599fbd065",
+			"responses": [],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"folder": null
+=======
+			"helperAttributes": {},
+			"time": 1443560069117,
+			"name": "PaymentList",
+			"description": "",
+			"collectionId": "a2f384d2-ab10-056a-7e9c-108599fbd065",
+			"responses": []
+>>>>>>> origin/feature/administration
+		}
+	]
+}
